@@ -1,8 +1,8 @@
 # İş Tanımı
 
-* Google hesabı ile giriş/çıkış.
+* Google hesabı ile giriş/çıkış. ✅
 * Her kullanıcı post paylaşabilecek. Kendi paylaştığı postu silebilecek, düzenleyebilecek. (Sadece açıklamasını)
-* Giriş yapmadan uygulama içeriğini göremeyecek (Middleware kullanılacak).
+* Giriş yapmadan uygulama içeriğini göremeyecek (Middleware kullanılacak). ✅
 * Her kullanıcının bir profil sayfası olacak.
 * Avatar (PP) olarak google avatar kullanılacak.
 * Kullanıcı hesabını silebilecek.
@@ -15,7 +15,7 @@
 
 # Modeller
 
-* User
+* User ✅
 * Posts
 
 # Firestore & Vuex Store
