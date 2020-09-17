@@ -20,4 +20,5 @@
 
 # Firestore & Vuex Store
 
-![snack-1](https://user-images.githubusercontent.com/71406148/93498644-b76c1080-f91a-11ea-9895-8464589fef8a.png)
+![model](https://user-images.githubusercontent.com/43720773/93512491-0c188700-f92d-11ea-8d3b-357f7ed8d510.png)
+
