@@ -15,7 +15,7 @@
 
 # Modeller
 
-- [ ]User
+- [ ] User
 - [ ] Posts
 
 # Firestore & Vuex Store
