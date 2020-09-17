@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-container>
-      <h1>Home page</h1>
+      <h1>User</h1>
     </v-container>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
+  name: "User",
 };
 </script>
