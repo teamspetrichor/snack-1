@@ -1,12 +1,18 @@
 <template>
-  <v-container>
+  <div class="full d-flex align-center">
     <v-row justify="center">
-      <v-col>
-        <h1>Login</h1>
-        <v-btn @click="_login()" color="red lighten-3">Sign in with google</v-btn>
+      <v-col align="center" cols="12">
+        <v-card max-width="300">
+          <v-card-title>
+            <h1 class="secondary--text mx-auto">Hoşgeldiniz</h1>
+          </v-card-title>
+          <v-card-actions>
+            <v-btn @click="_login()" color="red lighten-3" class="my-3 mx-auto">Sign in with google</v-btn>
+          </v-card-actions>
+        </v-card>
       </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 <script>
@@ -26,4 +32,7 @@ export default {
 </script>
 
 <style>
+.full {
+  height: 100%;
+}
 </style>
