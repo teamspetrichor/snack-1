@@ -1,25 +1,19 @@
 <template>
   <div>
     <v-container>
-      <h1>Login</h1>
-      <v-btn @click="_login()" color="red lighten-3">Sign in with google</v-btn>
+      <LoginForm></LoginForm>
     </v-container>
   </div>
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import LoginForm from "@/components/login/LoginForm";
+
 export default {
   name: "Login",
 
-  methods: {
-    ...mapActions("auth", ["login"]),
-
-    _login() {
-      this.login()
-        .then()
-        .catch((error) => console.log(error));
-    },
+  components: {
+    LoginForm,
   },
 };
 </script>

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Navbar></Navbar>
     <v-container>
       <h1>Home page</h1>
       <v-btn @click="_logout()" color="teal lightent-3" dark>Logout</v-btn>
@@ -10,8 +11,17 @@
 
 <script>
 import { mapActions, mapGetters } from "vuex";
+import Navbar from "@/components/core/Navbar";
 export default {
   name: "Home",
+
+  components: {
+    Navbar,
+  },
+
+  computed: {
+    ...mapGetters("auth", ["getUser"]),
+  },
 
   methods: {
     ...mapActions("auth", ["logout"]),
@@ -23,9 +33,6 @@ export default {
     printFollowers() {
       console.log(this.getUser.followers);
     },
-  },
-  computed: {
-    ...mapGetters("auth", ["getUser"]),
   },
 };
 </script>
