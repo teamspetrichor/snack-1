@@ -1,6 +1,4 @@
 import firestore from "@/services/firebase/firestore";
-//import auth from "@/store/modules/auth";
-//import { firestoreAction } from "vuexfire";
 
 const state = {
   feed: [],
